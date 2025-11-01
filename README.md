@@ -63,4 +63,6 @@ If you have any questions about the hackathon, submission process, or rules, fee
 
 You can also open a discussion or reach out on LinkedIn if you prefer — we’re happy to help!
 
+---
+
 Let’s make something meaningful — inspired by what we’ve learned together. 🚀
