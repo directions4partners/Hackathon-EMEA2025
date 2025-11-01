@@ -59,7 +59,7 @@ The **winning team** will receive
 If you have any questions about the hackathon, submission process, or rules, feel free to reach out:
 
 📧 **Email:** [freddy@directions4partners.com](mailto:freddy@directions4partners.com?subject=Directions%20EMEA%202025%20Hackathon%20Question)  
-💼 **LinkedIn:** [Freddy Kristiansen](https://www.linkedin.com/in/freddydk/)
+💼 **LinkedIn:** [Freddy Kristiansen](https://www.linkedin.com/in/freddykristiansen/)
 
 You can also open a discussion or reach out on LinkedIn if you prefer — we’re happy to help!
 
