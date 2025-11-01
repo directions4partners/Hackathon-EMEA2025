@@ -1,0 +1,26 @@
+name: "Auto-comment on new hackathon ideas"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add a friendly comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            👋 Hi @${{ github.event.issue.user.login }}!  
+            Thanks for submitting your **Directions EMEA 2025 Hackathon idea** 🎉  
+
+            You’re officially part of the hackathon!  
+            - 🕒 Submission received before **October 6th, 15:30** — perfect.  
+            - 🚀 Development runs until **January 5th, 2026**.  
+            - 🏁 Final submission is due on **January 6th, 2026**.  
+            - 🏆 The winner will be announced during the **Directions Webinar on January 27th, 2026**.  
+
+            We can’t wait to see what you’ll build. Good luck! 💡  
+            _– The Directions EMEA 2025 Hackathon Team_
