@@ -2,7 +2,7 @@
 
 Welcome to the **Directions EMEA 2025 Hackathon** 🎉  
 
-On **October 6th, 2025**, we’ll pause for **105 minutes** to reflect on what we’ve learned during Directions EMEA — and turn those insights into new ideas that can shape the future of Business Central and its ecosystem.
+On **November 6th, 2025**, we’ll pause for **105 minutes** to reflect on what we’ve learned during Directions EMEA — and turn those insights into new ideas that can shape the future of Business Central and its ecosystem.
 
 ---
 
@@ -11,7 +11,7 @@ On **October 6th, 2025**, we’ll pause for **105 minutes** to reflect on what w
 **Your task:**  
 1. Spend 105 minutes reflecting on what inspired you during the conference.  
 2. Come up with a **hackathon project idea** — something you (and optionally one teammate) can complete in the next 2 months.  
-3. Submit your idea **by creating a new GitHub Issue** in this repository before **15:30 on October 6th, 2025**.  
+3. Submit your idea **by creating a new GitHub Issue** in this repository before **15:30 on November 6th, 2025**.  
 
 You’ll then have until **January 6th, 2026** to bring your idea to life.
 
@@ -39,7 +39,7 @@ The **winning team** will receive
 2. Click **New Issue**.  
 3. Choose **“Hackathon Project Idea”**.  
 4. Fill out the template — including your reflection, idea, and plan.  
-5. Submit it **before 15:30 (local time) on October 6th, 2025.**
+5. Submit it **before 15:30 (local time) on November 6th, 2025.**
 
 ---
 
@@ -47,8 +47,8 @@ The **winning team** will receive
 
 | Phase | Dates | Description |
 |-------|--------|-------------|
-| Reflection & Idea Submission | **Oct 6, 2025 (until 15:30)** | Reflect for 105 minutes and submit your idea as an Issue |
-| Development | **Oct 7, 2025 – Jan 5, 2026** | Work on your project |
+| Reflection & Idea Submission | **Nov 6, 2025 (until 15:30)** | Reflect for 105 minutes and submit your idea as an Issue |
+| Development | **Nov 7, 2025 – Jan 5, 2026** | Work on your project |
 | Finalization & Submission | **Jan 6, 2026** | Finalize and submit your completed project |
 | Review Period | **Jan 7 – Jan 26, 2026** | Projects are reviewed by the hackathon committee |
 | Directions Webinar | **Jan 27, 2026** | Selected projects are showcased and the winner is announced 🎉 |
