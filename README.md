@@ -7,6 +7,7 @@ Spend 105 minutes reflecting on what you learned during the conference and submi
 🕒 Submission deadline: October 6th, 2025 – 15:30
 
 👥 Team size: 1–2 people
+
 🏆 Prize: Two free tickets to Directions EMEA 2026!
 
 Submit your idea as a GitHub Issue in this repository.
