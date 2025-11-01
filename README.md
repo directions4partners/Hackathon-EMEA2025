@@ -1,13 +1,56 @@
-# Directions EMEA 2025 Hackathon – Reflect. Create. Share.
+# Directions EMEA 2025 Hackathon
 
-Join the Directions EMEA 2025 Hackathon on October 6th, 2025!
+Welcome to the **Directions EMEA 2025 Hackathon** 🎉  
 
-Spend 105 minutes reflecting on what you learned during the conference and submit a project idea that you and a teammate (optional) can complete within 2 months — by January 6th, 2026.
+On **October 6th, 2025**, we’ll pause for **105 minutes** to reflect on what we’ve learned during Directions EMEA — and turn those insights into new ideas that can shape the future of Business Central and its ecosystem.
 
-🕒 Submission deadline: October 6th, 2025 – 15:30
+---
 
-👥 Team size: 1–2 people
+## 🧠 The Challenge
 
-🏆 Prize: Two free tickets to Directions EMEA 2026!
+**Your task:**  
+1. Spend 105 minutes reflecting on what inspired you during the conference.  
+2. Come up with a **hackathon project idea** — something you (and optionally one teammate) can complete in the next 2 months.  
+3. Submit your idea **by creating a new GitHub Issue** in this repository before **15:30 on October 6th, 2025**.  
 
-Submit your idea as a GitHub Issue in this repository.
+You’ll then have until **January 6th, 2026** to bring your idea to life.
+
+---
+
+## 🏆 Prize
+
+The **winning team** will receive  
+🎫 **Two free tickets to Directions EMEA 2026!**
+
+---
+
+## 👥 Team Details
+
+- Team size: **1–2 people**  
+- Each team submits **one idea** via a GitHub Issue.  
+- You can collaborate on your implementation however you like (public or private repo, branch, etc.).
+
+---
+
+## 💡 How to Submit Your Idea
+
+1. Go to the **Issues** tab.  
+2. Click **New Issue**.  
+3. Choose **“Hackathon Project Idea”**.  
+4. Fill out the template — including your reflection, idea, and plan.  
+5. Submit it **before 15:30 (local time) on October 6th, 2025.**
+
+---
+
+## 📅 Timeline
+
+| Phase | Dates | Description |
+|-------|--------|-------------|
+| Reflection & Idea Submission | **Oct 6, 2025 (until 15:30)** | Reflect for 105 minutes and submit your idea as an Issue |
+| Development | **Oct 7 – Dec 15, 2025** | Work on your project |
+| Wrap-up & Submission | **Dec 16, 2025 – Jan 6, 2026** | Finalize and present your project |
+| Winner Announcement | **Early 2026** | Celebrate the winning team 🎉 |
+
+---
+
+Let’s make something meaningful — inspired by what we’ve learned together. 🚀
