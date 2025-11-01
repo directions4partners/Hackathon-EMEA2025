@@ -26,7 +26,8 @@ The **winning team** will receive
 
 ## 👥 Team Details
 
-- Team size: **1–x people**  
+- Team size: **1–x people**
+- Each person can only be a member of **one team**.
 - Each team submits **one idea** via a GitHub Issue.  
 - Implementation needs to be Open Source and on GitHub.
 
