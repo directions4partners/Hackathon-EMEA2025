@@ -30,7 +30,7 @@ List rough steps or milestones.
 ---
 
 ## 👥 Team
-List the people working on this project (1–2 people max).
+List the people working on this project
 
 > _Team members / GitHub usernames_
 
