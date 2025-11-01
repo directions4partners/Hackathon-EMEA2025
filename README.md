@@ -28,7 +28,7 @@ The **winning team** will receive
 
 - Team size: **1–2 people**  
 - Each team submits **one idea** via a GitHub Issue.  
-- You can collaborate on your implementation however you like (public or private repo, branch, etc.).
+- Implementation needs to be Open Source.
 
 ---
 
@@ -47,9 +47,10 @@ The **winning team** will receive
 | Phase | Dates | Description |
 |-------|--------|-------------|
 | Reflection & Idea Submission | **Oct 6, 2025 (until 15:30)** | Reflect for 105 minutes and submit your idea as an Issue |
-| Development | **Oct 7 – Dec 15, 2025** | Work on your project |
-| Wrap-up & Submission | **Dec 16, 2025 – Jan 6, 2026** | Finalize and present your project |
-| Winner Announcement | **Early 2026** | Celebrate the winning team 🎉 |
+| Development | **Oct 7, 2025 – Jan 5, 2026** | Work on your project |
+| Finalization & Submission | **Jan 6, 2026** | Finalize and submit your completed project |
+| Review Period | **Jan 7 – Jan 26, 2026** | Projects are reviewed by the hackathon committee |
+| Directions Webinar | **Jan 27, 2026** | Selected projects are showcased and the winner is announced 🎉 |
 
 ---
 
