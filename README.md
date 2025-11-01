@@ -28,7 +28,7 @@ The **winning team** will receive
 
 - Team size: **1–2 people**  
 - Each team submits **one idea** via a GitHub Issue.  
-- Implementation needs to be Open Source.
+- Implementation needs to be Open Source and on GitHub.
 
 ---
 
