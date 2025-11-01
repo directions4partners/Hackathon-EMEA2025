@@ -81,7 +81,7 @@ jobs:
             👋 Hi @${{ github.event.issue.user.login }}!  
             Thanks for submitting your **Directions EMEA 2025 Hackathon idea** 🎉  
 
-            You’re officially part of the hackathon!  
+            If your Directions EMEA 2025 checks OK, you’re officially part of the hackathon!  
             - 🕒 Submission received **on time** (before 15:30 CET on Nov 6, 2025).  
             - 🚀 Development runs until **January 5, 2026**.  
             - 🏁 Finalization & submission on **January 6, 2026**.  
