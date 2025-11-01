@@ -47,14 +47,14 @@ What do you hope to deliver by the end of the hackathon period?
 ## 🗓️ Timeline Overview
 | Phase | Description | Target Date |
 |-------|--------------|--------------|
-| Ideation & Submission | Reflect and submit by 15:30, Oct 6 | |
-| Development | Work on implementation | Oct 7 – Jan 5 |
+| Ideation & Submission | Reflect and submit by 15:30, Nov 6 | |
+| Development | Work on implementation | Nov 7 – Jan 5 |
 | Finalization & Submission | Complete and submit project | Jan 6 |
 | Review & Selection | Projects reviewed | Jan 7 – Jan 26 |
 | Directions Webinar | Presentation + Winner announcement | Jan 27 |
 
 ---
 
-✅ **Submission Deadline:** October 6th, 2025 – 15:30  
+✅ **Submission Deadline:** November 6th, 2025 – 15:30  
 🏆 **Prize:** Two free tickets to Directions EMEA 2026  
 🎥 **Winner Announcement:** January 27th, 2026 (Directions Webinar)
