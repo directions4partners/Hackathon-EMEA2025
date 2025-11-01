@@ -1,0 +1,105 @@
+name: "Hackathon idea"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  check-deadline-and-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Determine if submission is on time
+        id: check
+        run: |
+          # Issue creation time (UTC) from event payload
+          ISSUE_CREATED="${{ github.event.issue.created_at }}"
+
+          # Deadline is 15:30 CET on 2025-11-06, which is 14:30 UTC
+          DEADLINE_UTC="2025-11-06 14:30:00"
+
+          ISSUE_EPOCH=$(date -u -d "$ISSUE_CREATED" +%s)
+          DEADLINE_EPOCH=$(date -u -d "$DEADLINE_UTC" +%s)
+
+          echo "Issue created at (UTC): $ISSUE_CREATED"
+          echo "Deadline (UTC): $DEADLINE_UTC"
+
+          if [ "$ISSUE_EPOCH" -le "$DEADLINE_EPOCH" ]; then
+            echo "on_time=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "on_time=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Add base "idea" label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: idea
+
+      - name: Add "on-time" label
+        if: steps.check.outputs.on_time == 'true'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: on-time
+
+      - name: Add "late" label
+        if: steps.check.outputs.on_time != 'true'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: late
+
+      # Status comment (explicitly stating on time or late)
+      - name: Status comment — on time
+        if: steps.check.outputs.on_time == 'true'
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ✅ **Status:** This idea was **created on time**.
+            _Deadline: 15:30 CET (2025-11-06), which is 14:30 UTC._
+
+      - name: Status comment — late
+        if: steps.check.outputs.on_time != 'true'
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ❌ **Status:** This idea was **created too late**.
+            _Deadline: 15:30 CET (2025-11-06), which is 14:30 UTC._
+
+      # Friendly message tailored to on-time vs late
+      - name: Friendly comment — on time
+        if: steps.check.outputs.on_time == 'true'
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            👋 Hi @${{ github.event.issue.user.login }}!  
+            Thanks for submitting your **Directions EMEA 2025 Hackathon idea** 🎉  
+
+            You’re officially part of the hackathon!  
+            - 🕒 Submission received **on time** (before 15:30 CET on Nov 6, 2025).  
+            - 🚀 Development runs until **January 5, 2026**.  
+            - 🏁 Finalization & submission on **January 6, 2026**.  
+            - 🏆 Winner announced during the **Directions Webinar on January 27, 2026**.
+
+            Good luck — we can’t wait to see what you build! 💡  
+            _– The Directions EMEA 2025 Hackathon Team_
+
+      - name: Friendly comment — late
+        if: steps.check.outputs.on_time != 'true'
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            👋 Hi @${{ github.event.issue.user.login }}!  
+            Thanks for sharing your **Directions EMEA 2025 Hackathon idea**.
+
+            ⚠️ This submission was **after the deadline** (15:30 CET on Nov 6, 2025).  
+            While it won't be eligible for the 2026 prize, we still encourage you to keep building and sharing progress — great ideas deserve momentum!  
+
+            _– The Directions EMEA 2025 Hackathon Team_
