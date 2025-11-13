@@ -48,10 +48,10 @@ The **winning team** will receive
 | Phase | Dates | Description |
 |-------|--------|-------------|
 | Reflection & Idea Submission | **Nov 6, 2025 (until 15:30)** | Reflect for 105 minutes and submit your idea as an Issue |
-| Development | **Nov 7, 2025 – Jan 5, 2026** | Work on your project |
-| Finalization & Submission | **Jan 6, 2026** | Finalize and submit your completed project |
-| Review Period | **Jan 7 – Jan 26, 2026** | Projects are reviewed by the hackathon committee |
-| Directions Webinar | **Jan 27, 2026** | Selected projects are showcased and the winner is announced 🎉 |
+| Development | **Nov 7, 2025 – Feb 2nd, 2026** | Work on your project |
+| Finalization & Submission | **Feb 3rd, 2026** | Finalize and submit your completed project |
+| Review Period | **Feb 3rd – Mar 3rd, 2026** | Projects are reviewed by the hackathon committee |
+| Directions Webinar | **Mar 3rd, 2026** | Selected projects are showcased and the winner is announced 🎉 |
 
 ---
 
