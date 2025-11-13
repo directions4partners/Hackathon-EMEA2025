@@ -13,7 +13,7 @@ On **November 6th, 2025**, we’ll pause for **105 minutes** to reflect on what 
 2. Come up with a **hackathon project idea** — something you (and optionally one teammate) can complete in the next 2 months.  
 3. Submit your idea **by creating a new GitHub Issue** in this repository before **15:30 on November 6th, 2025**.  
 
-You’ll then have until **January 6th, 2026** to bring your idea to life.
+You’ll then have until **February 6th, 2026** to bring your idea to life.
 
 ---
 
